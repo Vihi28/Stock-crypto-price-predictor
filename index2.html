@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-color:AliceBlue;}
+div.topnav{
+	background-color:black;
+	font-size:20px;
+	overflow:hidden;
+	padding: 10px 20px;
+	}
+div.topnav a{
+	color:white;
+	padding: 10px 20px;
+	text-align:center;
+	text-decoration:none;}
+div.topnav a:hover{
+	background-color:grey;}
+div.topnav a.active{
+	background-color:lime;
+	color:white;}
+h1{
+	font-family:Courier New;
+	font-size:40px;}
+h2{	font-family:Courier New;
+	text-align:center;
+	font-size:30px;}
+p{	font-family:Comic Sans MS;
+	font-size:20px;}
+</style>
+<title> PREDICTOR </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1> STOCK PRICE PREDICTOR </h1>
+<div class="topnav">
+ <a href='/'>Home</a>
+ <a href="/anal">Stock-Crypto Analysis</a>
+ <a class="active" href='/pred'>Predictor</a>
+</div>
+<br>
+<h2> STOCK PREDICTOR</h2>
+<p> &emsp; &emsp; The predicted closing price is: <b>{{pred}}</b> </p><br><br>
+<p> &emsp; &emsp; &emsp; The highest closing price in the next 5 days is: <b>{{p1}}</b><br>
+<p>
+</body>
+</html>
